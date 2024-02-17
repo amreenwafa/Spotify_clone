@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Protest+Revolution&display=swap');
 body{
-    background-color: antiquewhite;
+    background-color: rgb(0, 0, 0);
 }
 
 *{
@@ -33,7 +33,20 @@ nav ul li{
 }
 
 .container{
-    min-height: 75vh;
+    min-height: 72vh;
+    background-color: black;
+    color: aliceblue;
+    font-family: "Protest Revolution", sans-serif;
+    display: flex;
+    width: 70%;
+    margin: 23px auto;
+    border-radius: 12px;
+    padding: 34px;
+    background-image: url('wallpaperflare.com_wallpaper.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-image: rgb(8, 0, 39);
+
 }
 
 .brand {
@@ -45,13 +58,22 @@ nav ul li{
 
 .bottom{
     position:sticky;
-    height: 130px;
+    height: 90px;
     background-color: black;
     color: aliceblue;
     bottom: 0;
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
+}
+
+.icon{
+    margin-top: 14px;
+}
+
+.icon i{
+    cursor: pointer;
 }
 
 #myProgressBar{
