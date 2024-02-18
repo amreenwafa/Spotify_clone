@@ -80,3 +80,25 @@ nav ul li{
 width: 80dvw;
 
 }
+
+.songItem{
+     height: 50px;
+     display: flex;
+     width: 80%;
+     background-color: rgb(253, 251, 255);
+     color: black;
+     margin: 12px 0;
+     justify-content: space-between;
+     align-items: center;
+     border-radius: 34px;
+     
+}
+
+.songItem img{
+width: 43px;
+margin: 0 23px;
+}
+
+.timestamp{
+    margin: 0 23px;
+}
