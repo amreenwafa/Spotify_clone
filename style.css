@@ -81,10 +81,13 @@ width: 80dvw;
 
 }
 
+.songItemContainer{
+
+}
+
 .songItem{
      height: 50px;
      display: flex;
-     width: 80%;
      background-color: rgb(253, 251, 255);
      color: black;
      margin: 12px 0;
@@ -97,8 +100,14 @@ width: 80dvw;
 .songItem img{
 width: 43px;
 margin: 0 23px;
+border-radius: 34px;
 }
 
 .timestamp{
     margin: 0 23px;
+    
+}
+
+.timestamp i{
+    cursor: pointer;
 }
